@@ -30,12 +30,12 @@ Test Data
 2. Clone project
 3. Run ```npm install```
 4. (optional) make modifications to the testData or add a new data file and change the path in `index.js`
-5. Run ```npm start``` for the default case (with `./testData.txt`) OR run ```npm start -- <path/to/file> ``` to use another `.txt` file (`./altTestData.txt` provided for your convenience, so you can run ```npm start -- altTestData.txt```)
+5. Run ```npm start``` for the default case (with `test/testData.txt`) OR run ```npm start -- <path/to/file> ``` to use another `.txt` file (`test/altTestData.txt` provided for your convenience, so you can run ```npm start -- test/altTestData.txt```)
+
+## Tests
+Some basic test cases are contained in the `test/LottoGuesser.test.js` file. To run the test suite, run ```npm run test```.
 
 ## Developer Assumptions:
 1. All integers in a row of the text file are separated by one (1) space character.
 2. As mentioned in the problem statement, data is valid, so all numbers should be an int between 1 and 9 with exactly four (4) ints per row of the input file.
 3. Data is listed in ascending date order, i.e. the first row is the oldest row.
-
-## Notes:
-1. Because of the triviality of the methods, I didn't write automated tests. With more complex or mission critical methods, it would be imperative to have a good suite of automated tests, striking a balance between not testing enough and testing too much (i.e. spending too much time developing tests instead of features).

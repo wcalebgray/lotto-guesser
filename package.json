@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "test"
+    "test": "mocha"
   },
   "author": "Caleb Gray",
   "license": "ISC",
@@ -13,5 +13,9 @@
     "bluebird": "^3.5.5",
     "line-reader": "^0.4.0",
     "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
   }
 }

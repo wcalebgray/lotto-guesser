@@ -2,7 +2,7 @@ const LottoGuesser = require('./LottoGuesser');
 
 async function run() {
   const guesser = new LottoGuesser();
-  const filePath = process.argv[2] || 'testData.txt';
+  const filePath = process.argv[2] || 'test/testData.txt';
   await guesser.readFile(filePath);
   const leastOccuringFour = guesser.getLeastOccurringFour();
   const longestAbsentInt = guesser.getLongestAbsentInt();
