@@ -1,0 +1,17 @@
+{
+  "name": "visualize-roi-lotto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "author": "Caleb Gray",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "line-reader": "^0.4.0",
+    "lodash": "^4.17.11"
+  }
+}
